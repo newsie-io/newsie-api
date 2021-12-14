@@ -10,3 +10,6 @@ serde = "1.0.130"
 serde_json = "1.0"
 diesel = { version = "1.4.4", features = ["sqlite"] }
 dotenv = "0.15.0"
+
+[target.armv7-unknown-linux-gnueabihf]
+linker = "arm-linux-gnueabihf-gcc"
